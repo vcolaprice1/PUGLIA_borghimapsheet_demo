@@ -1,4 +1,4 @@
-$(window).on('load', function() {
+v$(window).on('load', function() {
   var documentSettings = {};
   var group2color = {};
 
@@ -915,7 +915,7 @@ $(window).on('load', function() {
       credit += ' | ';
     }
 
-    credit += 'View <a href="' + getSetting('_githubRepo') + '">code</a>';
+    credit += 'Autore:';
     if (getSetting('_codeCredit')) credit += ' by ' + getSetting('_codeCredit');
     credit += ' with ';
     $('.leaflet-control-attribution')[0].innerHTML = credit + attributionHTML;
